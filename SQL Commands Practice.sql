@@ -367,6 +367,6 @@ mysql> desc demo;
 mysql> drop table orders;
 Query OK, 0 rows affected (0.05 sec)
 
-mysql> desc orders;
+mysql> desc orders;/* Error Occure Becaus Order table are Droped in the Database */
 ERROR 1146 (42S02): Table 'ecommerce.orders' doesn't exist
 mysql>
