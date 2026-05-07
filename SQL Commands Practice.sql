@@ -1,4 +1,5 @@
-mysql> show databases;
+/* SQL COMMANDS */
+mysql> show databases;/* It use to show the Available DATA */
 +---------------------------+
 | Database                  |
 +---------------------------+
@@ -13,9 +14,9 @@ mysql> show databases;
 +---------------------------+
 8 rows in set (0.04 sec)
 
-mysql> use ecommerce;
+mysql> use ecommerce;/* It use to select the Perticular Database */
 Database changed
-mysql> show tables;
+mysql> show tables;/* It use to show What is inside the Database */
 +---------------------+
 | Tables_in_ecommerce |
 +---------------------+
@@ -25,7 +26,7 @@ mysql> show tables;
 +---------------------+
 3 rows in set (0.02 sec)
 
-mysql> desc customer;
+mysql> desc customer;/* It is use to Describ the All database */
 +--------------+--------------+------+-----+---------+-------+
 | Field        | Type         | Null | Key | Default | Extra |
 +--------------+--------------+------+-----+---------+-------+
@@ -39,10 +40,10 @@ mysql> desc customer;
 +--------------+--------------+------+-----+---------+-------+
 7 rows in set (0.01 sec)
 
-mysql> select * from customer;
+mysql> select * from customer;/* It is use to Retrive All the data in the Database */
 Empty set (0.03 sec)
 
-mysql> insert into customer(customer_ID, name, city, email, address, phone_number, pincode)values('C101','VINIT','Thane','salunkhe@gmail.com','shankarmandir','9967780832','400605');
+mysql> insert into customer(customer_ID, name, city, email, address, phone_number, pincode)values('C101','VINIT','Thane','salunkhe@gmail.com','shankarmandir','9967780832','400605');/* Insert Commanad use to Adding the valuse in the Database */
 Query OK, 1 row affected (0.01 sec)
 
 mysql> select * from customer;
@@ -53,7 +54,7 @@ mysql> select * from customer;
 +-------------+-------+-------+--------------------+---------------+--------------+---------+
 1 row in set (0.00 sec)
 
-mysql> select customer_ID, name, pincode from customer;
+mysql> select customer_ID, name, pincode from customer;/* It is use to Select the specific Column in the Database */
 +-------------+-------+---------+
 | customer_ID | name  | pincode |
 +-------------+-------+---------+
@@ -93,6 +94,7 @@ mysql> desc customer;
 +--------------+--------------+------+-----+---------+-------+
 7 rows in set (0.01 sec)
 
+    
 mysql> alter table customer modify Customer_id varchar(10)  not null;
 Query OK, 0 rows affected (0.05 sec)
 Records: 0  Duplicates: 0  Warnings: 0
