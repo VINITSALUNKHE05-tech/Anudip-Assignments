@@ -1,3 +1,4 @@
+/* SQL COMMANDS */
 mysql> show databases;
 +---------------------------+
 | Database                  |
