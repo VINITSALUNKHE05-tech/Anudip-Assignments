@@ -1,4 +1,4 @@
-/* Question
+/* Lab 1 Question :
 Create a table with named Feedback 
 
 with attributes: ● FeedbackID (Primary Key) 
