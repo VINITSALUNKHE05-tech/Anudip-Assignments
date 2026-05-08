@@ -11,7 +11,6 @@ with attributes: ● FeedbackID (Primary Key)
 
 ● Feedback
 
-
 Answer: */
 
 mysql> create database Student_management;
