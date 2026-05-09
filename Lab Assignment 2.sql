@@ -6,7 +6,7 @@ Table: ● Columns: account_id (Primary Key), account_holder_name, account_balan
 
 Task 1: Insert Data Write an SQL INSERT statement to insert data into the BankAccount table
 
-Task 2: Retrieving Data Write an SQL SELECT statement to retrieve the account_holder_name and            account_balance of all account holders from the BankAccount table. 
+Task 2: Retrieving Data Write an SQL SELECT statement to retrieve the account_holder_name and account_balance of all account holders from the BankAccount table. 
    
 Task 3: Filtering Data Write an SQL SELECT statement to retrieve the account_holder_name and account_balance where the account_balance is more than 30,000.
   
