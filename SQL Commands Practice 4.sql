@@ -1,5 +1,25 @@
+mysql> show databases;
++---------------------------+
+| Database                  |
++---------------------------+
+| aggregation               |
+| bankaccount               |
+| ecommerce                 |
+| information_schema        |
+| joints                    |
+| mysql                     |
+| performance_schema        |
+| sakila                    |
+| store_procedure_example   |
+| student_management_system |
+| sys                       |
+| world                     |
++---------------------------+
+12 rows in set (0.04 sec)
+
 mysql> use store_procedure_example;
 Database changed
+    
 mysql> create table employee(id int primary key not null, name varchar(20) not null,dept varchar(20) not null, salary int not null); 
 Query OK, 0 rows affected (0.046 sec)
 
